@@ -36,8 +36,8 @@ def main():
     plots_directory = Path('detections_plots')
     plots_directory.mkdir(exist_ok=True)
     for mseed_path in mseed_pathlist:
-        freq_min = 0.5
-        freq_max = 1.0
+        freq_min = 0.7
+        freq_max = 1.5
         
         print(f'Processing file: {mseed_path.name}')
 
